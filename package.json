@@ -1,0 +1,1 @@
+{"dependencies":{"express":"^4.19.2","ffmpeg-static":"^5.2.0"},"description":"Free Instagram Reels to MP3 microservice (yt-dlp + ffmpeg) for reelsaudiodownloader.in","engines":{"node":">=18"},"main":"server.js","name":"reels-audio-service","scripts":{"fetch-ytdlp":"node scripts/fetch-ytdlp.js","start":"node server.js"},"version":"1.0.0"}
