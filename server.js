@@ -17,6 +17,7 @@ const crypto = require('crypto');
 const ffmpegPath = require('ffmpeg-static');
 
 const app = express();
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 3000;
 const YTDLP = path.join(__dirname, 'bin', 'yt-dlp');
 const FILES_DIR = path.join(__dirname, 'files');
